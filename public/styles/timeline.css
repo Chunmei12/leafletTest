@@ -1,0 +1,35 @@
+.time_line_box{
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+}
+.time_line{
+    position: absolute;
+z-index: 1;
+left: 0;
+top: 49px;
+height: 2px;
+background: #dfdfdf;
+-webkit-transition: -webkit-transform 0.4s;
+-moz-transition: -moz-transform 0.4s;
+transition: transform 0.4s;
+
+}
+.order_item{
+position: absolute;
+bottom: 0;
+z-index: 2;
+text-align: center;
+font-size: 23px;
+padding-bottom: 15px;
+color: rgb(251, 144, 95);
+}
+.drag_box{
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    position: absolute;
+    left: 45%;
+    top:-50px;
+    background-color: rgba(9, 255, 0, 0.5);
+}
